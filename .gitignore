@@ -1,16 +1,3 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual environments
-venv/
-.env/
-
-# Logs
 logs/
-*.log
-
-# OS files
-.DS_Store
+config.json
+__pycache__/
