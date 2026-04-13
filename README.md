@@ -9,7 +9,7 @@ the script should be run in the background, it shows you:
 - top 5 processes by cpu
 
 it logs info into a the file "system_health.log"
-any the cpu, memory and/or disk usage goes over the configured threshold it sends
+any time the cpu, memory and/or disk usage goes over the configured threshold it sends
  a warning log into "system_health.log" and an alert message to "alerts.log"
 
 you have a few arguments to use:
