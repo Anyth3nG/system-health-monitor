@@ -13,29 +13,31 @@ any the cpu, memory and/or disk usage goes over the configured threshold it send
  a warning log into "system_health.log" and an alert message to "alerts.log"
 
 you have a few arguments to use:
-'--cpu'        sets the cpu threshold
-'--memory'     sets the memory threshold
-'--disk'       sets the disk threshold
-'--interval'   sets the time between each status update
-'--once'       runs the scripts once
-'--config'     shows the threshold settings
+`--cpu`        sets the cpu threshold
+`--memory`     sets the memory threshold
+`--disk`       sets the disk threshold
+`--interval`   sets the time between each status update
+`--once`       runs the scripts once
+`--config`     shows the threshold settings
 
 ## Usage
+```bash
 python monitor.py --cpu 80 --memory 80 --disk 90 --interval 5
 python monitor.py --once
-
+```
 
 ## Installation
 requirements.txt has the dependencies:
-'pip install -r requirements.txt' 
+`pip install -r requirements.txt` 
 
-project structure:
-
+## Project structure
+```
 system-health-monitor/
--monitor.py
--requirements.txt
--README.md
--config.json
---logs/
----system_health.log
----alerts.log	
+├── monitor.py
+├── requirements.txt
+├── README.md
+├── config.json
+└── logs/
+    ├── system_health.log
+    └── alerts.log
+```
