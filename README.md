@@ -12,13 +12,13 @@ it logs info into a the file "system_health.log"
 any time the cpu, memory and/or disk usage goes over the configured threshold it sends
  a warning log into "system_health.log" and an alert message to "alerts.log"
 
-you have a few arguments to use:
-`--cpu`        sets the cpu threshold
-`--memory`     sets the memory threshold
-`--disk`       sets the disk threshold
-`--interval`   sets the time between each status update
-`--once`       runs the scripts once
-`--config`     shows the threshold settings
+you have a few arguments to use:  
+`--cpu`        sets the cpu threshold  
+`--memory`     sets the memory threshold  
+`--disk`       sets the disk threshold  
+`--interval`   sets the time between each status update  
+`--once`       runs the scripts once  
+`--config`     shows the threshold settings  
 
 ## Usage
 ```bash
